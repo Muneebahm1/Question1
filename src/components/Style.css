@@ -1,0 +1,44 @@
+.container {
+    height: 700px;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    background-color: #f8f8f8;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .full-red {
+    background-color: #E92928;
+    border-radius: 0 0 0 20%;
+  }
+  .spark{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 30px;
+    
+    border-radius: 10px;
+    display: inline;
+  }
+  .inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .con{
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 80%;
+    }
+  }

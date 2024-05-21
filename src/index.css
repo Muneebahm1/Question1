@@ -1,0 +1,81 @@
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+html, body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color1 {
+  color: #E92928;
+}
+
+.color2 {
+  color: #A3AED0;
+}
+
+.font {
+  font-family: sans-serif;
+}
+
+.sign {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.para {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.or {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.inp {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.mdiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.a {
+  max-width: 400px; 
+  width: 90%;
+  padding: 20px; 
+  background-color: white;
+
+}
+
+.sbtn {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #E92928;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.required {
+  color: #E92928; 
+  margin-left: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .a {
+    width: 80%; 
+  }
+}
